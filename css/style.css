@@ -29,24 +29,26 @@ body{
     margin: 8px;
     background-color: blueviolet;
 }
+.column-3{
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+}
 .column-7{
     width: 75%;
     margin: 8px;
     background-color: chocolate;
+    text-align: center;
 }
 .navbar{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+
 }
-/*LETRA Y ESTILOS DE ESTA*/
-a{
-    margin: 10px;
-}
-h2{
-    text-align: center;
-}
+/*BARRA DE LA IZQUIERDA*/
 #img_p{
     display: flex;
     justify-content: center;
@@ -58,3 +60,11 @@ h2{
 #contactos{
     margin: 10px;
 }
+/*LETRA Y ESTILOS DE ESTA*/
+a{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+
