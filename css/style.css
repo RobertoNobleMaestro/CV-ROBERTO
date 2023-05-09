@@ -14,39 +14,35 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    background-color: blueviolet;
     display: flex;
 }
 .column-2{
     margin: 20px;
     width: 50%;
-    display: flex;
-    height: 400px;
-    background-color: aquamarine;
+    height: 100%;
 }
 .column-4{
     width: 25%;
     margin: 8px;
-    background-color: blueviolet;
 }
 .column-3{
     width: 100%;
     display: flex;
-    background-color: blueviolet;
     justify-content: center;
 }
 .column-7{
     width: 75%;
     margin: 8px;
-    background-color: chocolate;
     text-align: center;
+    border-left: 5px solid rgb(37, 164, 214);
 }
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-
+.colu-style{
+    background-color: rgb(240, 239, 239);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.568);
+}
+hr{
+    color: rgb(37, 164, 214);
+    
 }
 /*BARRA DE LA IZQUIERDA*/
 #img_p{
@@ -67,4 +63,6 @@ a{
 h2{
     text-align: center;
 }
-
+strong{
+    color: rgb(37, 164, 214);
+}
