@@ -18,7 +18,7 @@ body{
 }
 .column-2{
     margin: 20px;
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
 .column-4{
@@ -30,13 +30,6 @@ body{
     display: flex;
     justify-content: center;
 }
-.column-coles{
-    width: 33.3%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
 .column-7{
     width: 75%;
     margin: 8px;
@@ -47,6 +40,9 @@ body{
 .colu-style{
     background-color: rgb(240, 239, 239);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+        border-left: 5px solid rgb(37, 164, 214);
+    border-bottom: 5px solid rgb(37, 164, 214);
 }
 /*BARRA DE LA IZQUIERDA*/
 #img_p{
@@ -71,7 +67,7 @@ strong{
     color: rgb(37, 164, 214);
 }
 h5{
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(0, 0, 0, 0.507);
 }
 #navbar {
     position: fixed;
@@ -80,4 +76,50 @@ h5{
     z-index: 9999;
     background-color: rgb(37, 164, 214);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.568);
+}
+.timeline {
+    position: relative;
+    padding: 40px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(37, 164, 214);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  .timeline-item {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+  }
+  .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(37, 164, 214);
+    top: calc(50% - 12.5px);
+    left: -12px;
+  }  
+  .timeline-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
