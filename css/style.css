@@ -123,3 +123,32 @@ h5{
     height: auto;
     border-radius: 5px;
   }
+
+@media only screen and (max-width: 600px) {
+
+.row1{
+   flex-wrap: wrap;
+}
+.column-nav{
+    justify-content: space-between;
+}
+.column-7{
+    width: 100%;
+}
+.column-4{
+    width: 100%;
+}
+.column-2{
+    width: 100%;
+}
+iframe{
+    width: 80%;
+}
+.timeline-image{
+    width: 40%;
+}
+.timeline-content{
+    margin-right: 43px;
+}
+
+}
