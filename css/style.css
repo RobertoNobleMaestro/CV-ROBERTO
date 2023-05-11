@@ -105,7 +105,7 @@ h5{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;
   }
   .timeline-item::after {
